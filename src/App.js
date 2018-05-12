@@ -50,7 +50,11 @@ class App extends Component {
   render() {
    const loggedin = this.state.loggedin
     return (
+
+
+
       <div>
+        <div>
         <h2>Quiz App</h2>
         { loggedin ? 
         (
@@ -68,6 +72,7 @@ class App extends Component {
       </button>
       </div>
          )}
+         </div>
       </div>
     );
   }

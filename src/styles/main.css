@@ -1,0 +1,11 @@
+/* body{
+    background-image: url(../images/bc-image.jpg);
+} */
+
+.header{
+    width: 100%;
+    height: 200px;
+    /* position: fixed; */
+    background-color: skyblue;
+    border: 1px solid black;
+}

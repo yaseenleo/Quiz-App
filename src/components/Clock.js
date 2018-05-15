@@ -5,7 +5,6 @@ export default class Clock extends React.Component{
         this.state={
             timer : 300,
             timerstatus : true,
-          
         }
     }
    

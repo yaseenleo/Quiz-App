@@ -3,8 +3,6 @@ import {shuffle} from "./randomize";
 import Clock from "./Clock";
 import {htmlques} from "./questions";
 
-
-
 export default class htmlquiz extends React.Component {
     state={
         timeout : false,
@@ -12,9 +10,7 @@ export default class htmlquiz extends React.Component {
         scoreshow : false
       
     }
-   
-   
-      
+     
     render(){
         var submit = (e)=> {
             e.preventDefault();
@@ -44,9 +40,7 @@ export default class htmlquiz extends React.Component {
         });
             console.log(count);
         }
-       
-       
-      
+             
     var htmlques2 = htmlques;
     htmlques2=shuffle(htmlques2);
   
@@ -92,6 +86,4 @@ export default class htmlquiz extends React.Component {
     }
 ,300000)
  }
-
-
     }

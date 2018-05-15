@@ -1,0 +1,14 @@
+.carousel{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+images {
+    width: 1000px;
+    height: 400px;
+}
+
+.carousel-caption{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}

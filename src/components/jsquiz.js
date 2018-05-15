@@ -9,9 +9,7 @@ export default class jsquiz extends React.Component {
         score:0,
         scoreshow : false
     }
-   
-   
-      
+         
     render(){
         var submit = (e)=> {
             e.preventDefault();

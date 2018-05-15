@@ -89,6 +89,4 @@ export default class cssquiz extends React.Component {
         })
     }
 ,300000)
- }
-
-    }
+ }}

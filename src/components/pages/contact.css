@@ -1,0 +1,18 @@
+.jumbotron {
+    margin-bottom: 4em;
+    border-radius: 3px;
+    margin: auto;
+    /* width: 80%; */
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 100%;
+    width: 180px;
+    height: 184px;
+}
+p{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
